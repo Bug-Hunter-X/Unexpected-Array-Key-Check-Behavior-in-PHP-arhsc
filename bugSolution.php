@@ -1,0 +1,1 @@
+This improved code explicitly checks if a key exists using `isset()` or `array_key_exists()`.  This avoids the implicit type conversions and ensures reliable key checking regardless of the key type or value.

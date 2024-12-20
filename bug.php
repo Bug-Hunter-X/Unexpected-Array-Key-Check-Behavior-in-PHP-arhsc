@@ -1,0 +1,1 @@
+This code uses a non-standard way to check for array keys.  It relies on the implicit conversion of a boolean false to 0 and any other value to 1. This can lead to unexpected behavior if the keys are not simple integers starting from 0.
